@@ -6,7 +6,7 @@ USE dealership;
 DROP TABLE IF EXISTS cars;
 
 CREATE TABLE cars (
-    VIN VARCHARD (20),
+    VIN VARCHAR (20),
     manufacturer VARCHAR(50),
     model VARCHAR(30),
     year_cars INT,
